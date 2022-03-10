@@ -12,6 +12,7 @@ import NavBarCanvas from './Components/NavBarCanvas';
 import Grid from './Components/Grid';
 import CardGroup  from './Components/CardGroup';
 import CarouselCardGroup from "./Components/CarouselCardGroup";
+import Footer from "./Components/Footer";
 import { Button } from 'react-bootstrap';
 
 
@@ -21,8 +22,9 @@ function App() {
       {/* <NavBar />
       <NavBarCanvas />
       <Grid /> */}
-      <CardGroup />
-      <CarouselCardGroup />
+      {/* <CardGroup />
+      <CarouselCardGroup /> */}
+      <Footer />
     </div>
   );
 }
