@@ -129,13 +129,15 @@ function Footer(props) {
           </div>
         </section>
 
-        <div className='text-center p-4' style={{ backgroundColor: 'rgba(7, 7, 43, 1)' }}>
+        
+          <div className='bottom-section text-center p-4' >
           Created by {''}
           <a className='text-white fw-bold' href='https://nirvanaclouds.com/'>
             NirvanaClouds {''}
           </a>
           | All Right Reserved!
-        </div>
+          </div>
+        
       </MDBFooter>
     </>
   );
