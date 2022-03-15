@@ -1,4 +1,6 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
+// Import as a module in your JS
+//import 'react-bootstrap-typeahead/css/Typeahead.css';
 
 import './App.css';
 // import './NavBar1.css';
@@ -13,10 +15,14 @@ import Grid from './Components/Grid';
 import CardGroup  from './Components/CardGroup';
 import CarouselCardGroup from "./Components/CarouselCardGroup";
 import Footer from "./Components/Footer";
+import AutoComplete from "./Components/AutoComplete";
+//import AutocompletePage from "./Components/AutocompletePage";
 import { Button } from 'react-bootstrap';
 
 
 function App() {
+  
+
   return (
     <div className="content">
       {/* <NavBar />
@@ -24,7 +30,12 @@ function App() {
       <Grid /> */}
       {/* <CardGroup />
       <CarouselCardGroup /> */}
-      <Footer />
+      {/* <Footer /> */}
+
+      <AutoComplete />
+
+
+      
     </div>
   );
 }
